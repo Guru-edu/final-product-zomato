@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Payment Response</title>
+    <script>
+
+        function myFunction() {
+            window.location = "http://localhost:3000/";
+
+        };
+
+    </script>
+    <style>
+        .success-payment {
+            text-align: center;
+            color: red;
+            font-family: serif;
+            font-size: 40px;
+        }
+
+        .title {
+            text-align: start;
+        }
+
+        .container {
+            height: 300px;
+            width: 340px;
+        }
+
+        .button-home {
+            margin-left: 44%;
+            background-color: rgb(255, 255, 255);
+            border-radius: 7px;
+            border: solid 2px red;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="success-payment title">Ooops!.. </h1>
+        <h1 class="success-payment"><br>Payment Failure !!! </h1>
+    </div>
+    <button class="button-home text-center" onclick="myFunction()">Get Back to Order</button>
+</body>
+
+</html>

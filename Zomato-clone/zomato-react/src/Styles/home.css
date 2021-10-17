@@ -1,0 +1,405 @@
+.logo {
+    text-align: center;
+    font-size: 70px;
+    color: red;
+    background: white;
+    width: 105px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    margin-left: 43%;
+    font-weight: bold;
+}
+.search{
+    position: absolute;
+    left: 18px;
+    margin-top: 13px;
+    font-size: 18px;
+    color: gray;
+}
+.image{
+    height: 400px;
+    background-size: 100% 100%;
+    background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), #490505),url(../Assets/homepageimg.png);
+}
+li {
+    list-style:none;
+    background-color: rgb(247, 241, 241);
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    width: 340px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    
+}
+.no{
+    padding-top: 3px;
+    height: 30px;
+}
+.frown{
+    float: left;
+    margin-left: 30px;
+    font-size: 26px;
+    width: 50px;
+}
+.text{
+    color: rgb(99, 98, 98);
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: .5px;
+    padding-top: 3px;
+}
+
+#query {
+    height: 45px;
+    width: 340px;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    background-color: white;
+    color: gray;
+    letter-spacing: .5px;
+    text-align: center;
+}
+
+#notebooks {
+    position: absolute;
+    left: 38%;
+    border-radius: 5px;
+    max-height: 450px;
+}
+
+ul {
+    margin: 0 auto;
+    max-height: 400px;
+    top: 10px;
+    float: left;
+    margin-top: 6px;
+    border:none;
+    padding: 1px 1px 1px 1px;
+}
+
+.headings {
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    margin: auto;
+    font-size: 40px;
+    top: -240px;
+}
+
+.locationSelector {
+    position: relative;
+    top: -238px;
+    margin-top: 10px;
+    margin-left: 27.5%;
+    margin-right: 20%;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.locationDropdown {
+    height: 45px;
+    width: 245px;
+    text-align: center;
+    color:gray;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    letter-spacing: .5px;
+    font-size: 15px;
+    margin-right: 21px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+.restaurantsinput {
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 1.4;
+    float: left;
+}
+
+.quicksearch {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -45px;
+}
+
+.quicksearchHeading {
+    text-align: left;
+    color: #192f60;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 35px;
+}
+
+.quicksearchSubHeading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 35px;
+    margin-bottom: 40px;
+}
+
+.tileContainer {
+    height: 150px;
+    width: 350px;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    box-shadow: 0 3px 6px gray;
+    float: left;
+}
+
+.tileComponent1 {
+    width: 45%;
+    float: left;
+}
+
+.tileComponent2 {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.componentHeading {
+    text-align: left;
+    color: #192f60;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.componentSubHeading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+}
+.qsdiv{
+    height: 65px;
+    width: 100%;
+}
+.image-1{
+    height: 53px;
+    width: 53px;
+    padding-top: 5px;
+    display: inline-block;
+}
+#image-2{
+    height: 53px;
+    width: 53px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.name1{
+    text-align: left;
+    padding:5px 15px;
+    height: 30px;
+    width: 250px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #192f60;
+    display: inline-block;
+}
+.city1{
+    text-align: left;
+    padding:5px 15px;
+    height: 30px;
+    width: 250px;
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
+    display: inline-block;
+
+}
+@media only screen and (max-width: 600px) {
+    .logo {
+        text-align: center;
+        font-size: 50px;
+        color: red;
+        background: white;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: absolute;
+        top: 19%;
+        margin-left: 43%;
+        font-weight: bold;
+    }
+    .headings {
+        color: white;
+        text-align: center;
+        font-weight: 600;
+        position: relative;
+        margin: auto;
+        font-size: 32px;
+        top: -255px;
+    }
+    .locationSelector {
+        position: relative;
+        top: -248px;
+        margin-top: 0px;
+        margin-left: 27.5%;
+        margin-right: 20%;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.2);   
+    }
+    .locationDropdown {
+        height: 45px;
+        width: 350px;
+        text-align: center;
+        color: grey;
+        border: none;
+        border-radius: 3px;
+        font-size: 15px;
+        margin-left: -65px;
+        float: left;
+    }
+    ul {
+        top: 10px;
+        float: left;
+        margin-left: -65px;
+        margin-top: 5px;
+        max-height: 400px;
+        border:none;
+        padding:1px 3px;
+        border-radius: 3px;
+        background-color: lightgray;
+    }
+    #notebooks {
+        position: absolute;
+        width: 350px;
+        top: 45px;
+        left: 0%;
+        border: none;
+        border-radius: 0px;
+        max-height: 450px;
+    }
+    .restaurantsinput{
+        text-align: center;
+        color: black;
+        height: 45px;
+    }
+    #query{
+        margin-left: -65px;
+        margin-top: 5px;
+        font-size: 14px;
+        width: 350px;
+        color: black;
+        border: 1px solid rgba(255, 255, 255);
+        border-radius: 3px;
+        background-color: rgb(255, 255, 255);
+    }
+    .quicksearch {
+        z-index: -1;
+        margin-left: 32px;
+        margin-top: -85px;
+    }
+    li{
+        width: 345px;
+        background-color: rgb(255, 255, 255);
+        background-image: linear-gradient(0deg, rgb(255, 255, 255) 100px, rgb(255, 255, 255) 10px);
+        padding: 5px 5px 5px 5px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        border-radius: 3px;
+    }
+    .qsdiv{
+        height: 60px;
+        width: 100%;
+    }
+    .quicksearchHeading {
+        text-align: left;
+        color: #192f60;
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 7px;
+    }
+    .quicksearchSubHeading {
+        text-align: left;
+        color: gray;
+        font-size: 18px;
+        font-weight: normal;
+        padding-left: 7px;
+        margin-bottom: 20px;
+    }
+    .image-1{
+        height: 53px;
+        width: 53px;
+        display: inline-block;
+        padding-top: 5px;
+    }
+    #image-2{
+        height: 53px;
+        width: 53px;
+        border-radius: 50px;
+        display: inline-block;
+    }
+    .name1{
+        text-align: left;
+        padding:5px 15px;
+        height: 30px;
+        width: 250px;
+        font-size: 18px;
+        font-weight: bolder;
+        color: #192f60;
+        display: inline-block;
+    }
+    .city1{
+        text-align: left;
+        padding:5px 15px;
+        height: 30px;
+        width: 250px;
+        font-size: 13px;
+        font-weight: 600;
+        color: gray;
+        display: inline-block;
+
+    }
+    .search{
+        font-size: 20px;
+        position: absolute;
+        left: -30px;
+        margin-top: 18px;
+        color: gray;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1150px) {
+    .locationDropdown {
+        height: 40px;
+        width: 310px;
+        color: gray;
+        border: none;
+        border-radius: 0px;
+        font-size: 15px;
+        opacity: 0.7;
+        margin-right: 21px;
+        margin-bottom: 25px;
+        float: left;
+    }
+    .locationSelector {
+        position: relative;
+        top: -238px;
+        margin-left: 32.5%;
+        margin-right: 20%;
+        text-align: center;
+    }
+    .search {
+        position: absolute !important;
+        left: 5px;
+        margin: 1% 0px;
+        top: 73px !important;
+    }
+}

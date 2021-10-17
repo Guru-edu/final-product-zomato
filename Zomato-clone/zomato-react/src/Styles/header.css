@@ -1,0 +1,224 @@
+.app-header {
+    background-color:#b10606;
+    height: 50px;
+}
+.model{
+    height: 600px;
+    width: 400px;
+}
+.header-logo {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 28px;
+    color: red;
+    margin-left: 5%;
+    display: inline-block;
+    font-family: poppins;
+    font-weight: bolder;
+    cursor:pointer;
+}
+
+.user-button-gp {
+    float: right;
+    margin-right: 50px;
+    color: white;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.user-login {
+    display: inline-block;
+    margin-right: 25px;
+    font-family: poppins;
+    cursor:pointer;
+}
+
+.user-signup {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    font-family: poppins;
+    cursor:pointer;
+}
+.division{
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(126, 0, 0);
+    border-radius: 5px;
+    width: 400px;
+}
+.res-1{
+    height: 40px;
+    margin-top: 20px;
+    color: #b10606;
+    font-size: 23px;
+    font-weight: 600;
+}
+.bill{
+    display: inline-block;
+    width: 180px;
+    padding-right: 20px;
+    font-weight: 600;
+    color: grey;
+    font-size: 17px;
+}
+#bill{
+    margin-top: 25px;
+    padding-left:70px ;
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+}
+.bill-1{
+    display: inline-block;
+    width: 180px;
+    padding-right: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+}
+.amount{
+    margin:25px ;
+    height: 40px;
+    width: 350px;
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(7, 2, 56);
+    font-size: 20px;
+    font-weight: 800;
+    border: 1px solid black;
+}
+#line{
+    border-bottom: 3px solid rgb(102, 98, 98);
+    height: 10px;
+    margin-bottom: 10px;
+}
+.emptylist{
+    height: 450px;
+    width: 450px;
+    padding: 20px;
+
+}
+.frown-1{
+    margin-top: 30px;
+    height: 100px;
+    width: 40px;
+    margin-left: 30px;
+    font-size: 30px;
+    display: inline-block;
+}
+.result{
+    margin-top: 50px;
+    color: #b10606;
+    font-weight: 600;
+    height: 100px;
+    width: 280px;
+    font-size: 20px;
+    display: inline-block;
+}
+.del{
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    height: 35px;
+
+}
+.all{
+    font-size: 15px;
+    text-align: center;
+}
+.click{
+    font-size: 15px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.lg{ 
+    margin: 10px 140px 10px 145px;
+    letter-spacing: 1.1px;
+    padding: 5px 20px
+}
+
+@media only screen and  (max-width:500px){ 
+    .header-logo {
+        width: 35px;
+        height: 35px;
+        font-size: 25px;
+        margin-left: 8%;
+        margin-top: 8px;
+    }
+    .division{
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 350px;
+    }
+    .lg{ margin: 10px 160px 10px 120px;
+        letter-spacing: 1.1px;
+        padding: 5px 20px
+    }
+    
+    .user-login {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    
+    .user-signup {
+        font-size: 12px;
+        margin-left: 0px;
+    }
+
+    .user-button-gp {
+        margin-right: 25px;
+        color: white;
+        font-weight: bold;
+        margin-top: 8px;
+        width: 200px;
+        float: right;
+    }
+    .emptylist{
+        height: 420px;
+        width:400px ;
+    }
+        
+    .frown-1{
+        height: 100px;
+        width: 40px;
+        margin-left:10px;
+        font-size: 30px;
+        display: inline-block;
+    }
+    .result{
+        padding-top: 20px;
+        margin-top: 50px;
+        color: #b10606;
+        font-weight: 600;
+        height: 100px;
+        width: 280px;
+        font-size: 20px;
+        display: inline-block;
+    }
+    .bill{
+        display: inline-block;
+        width: 160px;
+        padding-right: 20px;
+        font-weight: 600;
+        color: grey;
+        font-size: 17px;
+    }
+   
+    .bill-1{
+        display: inline-block;
+        width: 170px;
+        padding-right: 20px;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
